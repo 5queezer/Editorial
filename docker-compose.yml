@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  ghost:
+    image: ghost:alpine
+    restart: always
+    ports:
+      - 8080:2368    
+    environment:
+      url: http://localhost:8080
+    volumes:
+      - ./:/var/lib/ghost/content/themes/Editorial
