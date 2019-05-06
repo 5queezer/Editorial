@@ -176,3 +176,18 @@
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
 	}
+
+	.subscribe-form {
+		form {
+			display: inline-flex;
+		}
+		input.subscribe-email {
+			border-right-style: none;
+			border-top-right-radius: 0;
+			border-bottom-right-radius: 0;
+		}
+		[type="submit"] {
+			border-top-left-radius: 0;
+			border-bottom-left-radius: 0;
+		}
+	}

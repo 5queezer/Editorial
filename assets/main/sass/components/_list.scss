@@ -50,6 +50,10 @@
 			margin: 0 0 (_size(element-margin) * 0.5) 0;
 		}
 
+		dt:not(:first-of-type) {
+			margin-top: _size(element-margin);
+		}
+
 		dd {
 			margin-left: _size(element-margin);
 		}
